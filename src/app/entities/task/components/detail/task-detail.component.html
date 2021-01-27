@@ -1,7 +1,7 @@
 <mat-card class="task-card " [ngClass]="!task.done?'todo':'done'">
     <mat-card-header class="card-container">
 
-        <mat-card-title class="card-title" [innerHTML]="task.description | highlight: searchText">
+        <mat-card-title class="card-title" [innerHTML]="task.title | highlight: searchText">
 
             {{task.title}}
 

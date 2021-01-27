@@ -10,9 +10,9 @@ export class InMemoryDataService implements InMemoryDbService {
 
   createDb() {
     const tasks = [
-      { id: 11, title: 'Lavar la ropa', description: 'mucha ropa', done: false },
-      { id: 12, title: 'Comprar fruta', description: 'Melones, Sandias, Manzanas', done: false },
-      { id: 13, title: 'Arreglar silla', description: 'Arreglar la silla con el pegamento', done: true }
+      { id: 11, title: 'Comprar un robot', description: '', done: false },
+      { id: 12, title: 'Pensar un nombre', description: 'Robotico, Hojalata, Rigoberto', done: false },
+      { id: 13, title: 'Soñar despierto', description: '', done: true }
     ];
     return { tasks };
   }
