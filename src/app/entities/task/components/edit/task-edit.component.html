@@ -1,0 +1,39 @@
+<form #taskForm="ngForm" [formGroup]="taskFromControlGroup" novalidate>
+    <p>
+        <mat-form-field>
+            <mat-label i18n>Titulo</mat-label>
+            <input i18n matInput type="text" id="title" name="title" placeholder="Titulo" [(ngModel)]="task.title" formControlName="title" required>
+            <mat-error i18n *ngIf=" titleFormControl.errors?.required">El campo es <strong>obligatorio</strong></mat-error>
+        </mat-form-field>
+
+    </p>
+    <p>
+        <mat-form-field>
+            <mat-label i18n>Description</mat-label>
+            <textarea i18n matInput name="description" [(ngModel)]="task.description" placeholder="Descripción" formControlName="description"></textarea>
+        </mat-form-field>
+    </p>
+
+    <!-- 
+    <p>
+        <mat-label>Priority</mat-label>
+        <mat-slider [max]="3" [min]="1" [(ngModel)]="task.priority" formControlName="priority">
+        </mat-slider>
+    </p>
+     -->
+
+    <p *ngIf="task.id != null">
+        <!-- <p> -->
+        <mat-slide-toggle [(ngModel)]="task.done" formControlName="done">
+            <span i18n *ngIf="task.done; else elseBlock">Completada</span>
+            <ng-template i18n #elseBlock>Pendiente</ng-template>
+        </mat-slide-toggle>
+    </p>
+
+    <mat-toolbar>
+        <span class="toolbar-spacer"></span>
+        <button i18n mat-stroked-button (click)="cancel()">Cancelar</button>
+        <button i18n mat-raised-button color="primary" (click)="save();" [disabled]="!taskFromControlGroup.valid">Guardar</button>
+    </mat-toolbar>
+
+</form>

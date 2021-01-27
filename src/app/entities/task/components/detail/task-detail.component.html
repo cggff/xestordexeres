@@ -1,0 +1,41 @@
+<mat-card class="task-card " [ngClass]="!task.done?'todo':'done'">
+    <mat-card-header class="card-container">
+
+        <mat-card-title class="card-title" [innerHTML]="task.description | highlight: searchText">
+
+            {{task.title}}
+
+        </mat-card-title>
+
+    </mat-card-header>
+
+    <mat-card-content>
+        <p [innerHTML]="task.description | highlight: searchText">
+            {{task.description}}
+        </p>
+    </mat-card-content>
+    <mat-card-actions class="card-actions" *ngIf="!task.done">
+
+        <button i18n mat-stroked-button [matMenuTriggerFor]="menu" aria-label="Opciones de menu" class="card-menu">
+            Opciones
+        </button>
+
+        <mat-menu #menu="matMenu">
+            <a routerLink="/task/{{task.id}}">
+                <button mat-menu-item>
+                    <mat-icon>edit</mat-icon>
+                    <span i18n>Editar</span>
+                </button>
+            </a>
+            <button mat-menu-item (click)="deleteTask() ">
+                <mat-icon>delete</mat-icon>
+                <span i18n>Borrar</span>
+            </button>
+        </mat-menu>
+
+        <button i18n mat-raised-button color="accent" (click)="taskCompleted()">
+            <mat-icon>done</mat-icon>
+            Finalizar
+        </button>
+    </mat-card-actions>
+</mat-card>

@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+  <file source-language="en-US" datatype="plaintext" original="ng2.template">
+    <body>
+      <trans-unit id="fafcaba4769bf730778b1cc68bdfe334c474cff6" datatype="html">
+        <source>Borrar Tarea</source>
+        <target>Delete task</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/entities/task/components/delete/task-delete-dialog.component.html</context>
+          <context context-type="linenumber">1</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="0fd31189c0671b8625192d4e1fe1d71666af01aa" datatype="html">
+        <source>¿Deseas borrar la tarea?</source>
+        <target>Do you want to delete the task?</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/entities/task/components/delete/task-delete-dialog.component.html</context>
+          <context context-type="linenumber">4</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="e8d22cdef9f5780e31395340125d873f9df518c3" datatype="html">
+        <source>Cancelar</source>
+        <target>Cancel</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/entities/task/components/delete/task-delete-dialog.component.html</context>
+          <context context-type="linenumber">7</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/entities/task/components/edit/task-edit.component.html</context>
+          <context context-type="linenumber">35</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="8a59acaaa269a1baf396247919e76286168e2a29" datatype="html">
+        <source>Borrar</source>
+        <target>Delete</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/entities/task/components/delete/task-delete-dialog.component.html</context>
+          <context context-type="linenumber">8</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/entities/task/components/detail/task-detail.component.html</context>
+          <context context-type="linenumber">32</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="9684355abf693ef0eb6ba043299ed4b0ff49ece3" datatype="html">
+        <source> Opciones </source>
+        <target>Options</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/entities/task/components/detail/task-detail.component.html</context>
+          <context context-type="linenumber">20,21</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="5d6e2342e48d75e405f0fc141ab3e4a93c872dbb" datatype="html">
+        <source>Editar</source>
+        <target>Edit</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/entities/task/components/detail/task-detail.component.html</context>
+          <context context-type="linenumber">27</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="2e5b3ed557fe42a910cbec08a4cfe20d7b6a2280" datatype="html">
+        <source><x id="START_TAG_MAT_ICON" ctype="x-mat_icon" equiv-text="&lt;mat-icon&gt;"/>done<x id="CLOSE_TAG_MAT_ICON" ctype="x-mat_icon" equiv-text="&lt;/mat-icon&gt;
+            "/> Finalizar </source>
+        <target><<x id="START_TAG_MAT_ICON" ctype="x-mat_icon" equiv-text="&lt;mat-icon&gt;"/>done<x id="CLOSE_TAG_MAT_ICON" ctype="x-mat_icon" equiv-text="&lt;/mat-icon&gt;
+            "/> Done </source>/target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/entities/task/components/detail/task-detail.component.html</context>
+          <context context-type="linenumber">37,39</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="fdf7cbdc140d0aab0f0b6c06065a0fd448ed6a2e" datatype="html">
+        <source>Titulo</source>
+        <target>Title</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/entities/task/components/edit/task-edit.component.html</context>
+          <context context-type="linenumber">4</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="eec715de352a6b114713b30b640d319fa78207a0" datatype="html">
+        <source>Description</source>
+        <target>Description</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/entities/task/components/edit/task-edit.component.html</context>
+          <context context-type="linenumber">12</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6943588fb2c336651c23e60f0c146379ad49a0a4" datatype="html">
+        <source>Guardar</source>
+        <target>Save</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/entities/task/components/edit/task-edit.component.html</context>
+          <context context-type="linenumber">36</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6e37f9e86b6d77bbfe0965efc223a82fc51ca511" datatype="html">
+        <source>El campo es <x id="START_TAG_STRONG" ctype="x-strong" equiv-text="&lt;strong&gt;"/>obligatorio<x id="CLOSE_TAG_STRONG" ctype="x-strong" equiv-text="&lt;/strong&gt;"/></source>
+        <target><x id="START_TAG_MAT_ICON" ctype="x-mat_icon" equiv-text="&lt;mat-icon&gt;"/>done<x id="CLOSE_TAG_MAT_ICON" ctype="x-mat_icon" equiv-text="&lt;/mat-icon&gt;
+          "/> Done </source></target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/entities/task/components/edit/task-edit.component.html</context>
+          <context context-type="linenumber">6</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="288266171bfccd4d85d3c15cfd3c0f6cabca672e" datatype="html">
+        <source>Done</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/entities/task/components/edit/task-edit.component.html</context>
+          <context context-type="linenumber">28</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="a32e5ff16a2f3f82114992d72d4ff0248bb9d797" datatype="html">
+        <source>to do</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/entities/task/components/edit/task-edit.component.html</context>
+          <context context-type="linenumber">29</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="341efbd38c405543c9456f7a622d6e3ea3f18750" datatype="html">
+        <source><x id="START_TAG_MAT_ICON" ctype="x-mat_icon" equiv-text="&lt;mat-icon&gt;"/>add<x id="CLOSE_TAG_MAT_ICON" ctype="x-mat_icon" equiv-text="&lt;/mat-icon&gt;"/></source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/dashboard/dashboard-page.component.html</context>
+          <context context-type="linenumber">20</context>
+        </context-group>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

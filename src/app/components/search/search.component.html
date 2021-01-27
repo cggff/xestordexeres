@@ -1,0 +1,11 @@
+<form class="task-search-form">
+
+    <mat-form-field appearance="standard">
+        <input i18n type="text" [(ngModel)]="text" matInput [formControl]="taskFormControl" placeholder="Buscar">
+    </mat-form-field>
+
+    <button mat-icon-button color="basic" aria-label="Realizar una busqueda" (click)="search()">
+        <mat-icon>search</mat-icon>
+    </button>
+
+</form>

@@ -1,0 +1,59 @@
+    .task-card {
+        margin: 10px;
+    }
+    
+    .task-card:hover {
+        box-shadow: -1px 10px 40px 0px rgba(0, 0, 0, 0.8);
+    }
+    
+    .done {
+        background-color: rgb(119, 166, 226);
+    }
+    /* .mat-card {
+    background: #fff;
+    background: linear-gradient(180deg, rgba(247, 2, 35, 1) 0%, rgba(255, 255, 255, 1) 100%);
+    background-repeat: repeat-y;
+    background-size: 12px auto;
+        }     */
+    
+    .card-container {
+        display: flex;
+    }
+    
+    .mat-card-title.card-title {
+        display: flex;
+        width: 100%;
+    }
+    
+    .mat-card-header {
+        margin: 0 0px 0px 0px !important;
+        width: 100%;
+    }
+    
+    .mat-card-content {
+        margin: 0 16px;
+    }
+    
+    .card-actions {
+        display: flex;
+        justify-content: flex-end;
+    }
+    
+    .mat-card-actions {
+        margin: 0 16px;
+        display: flex;
+        /* justify-content: flex-end; */
+    }
+    
+    .mat-card-actions {
+        &[align='end'] {
+            justify-content: flex-end;
+        }
+        &[align='center'] {
+            justify-content: center;
+        }
+    }
+    
+    .card-space {
+        flex: 1 1 auto;
+    }

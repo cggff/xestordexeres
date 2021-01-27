@@ -1,0 +1,34 @@
+<div id="editPage">
+    <div class="pContent">
+        <div class="menu">
+            <mat-toolbar color="primary" class="mat-elevation-z6">
+                <span>Xestor de Xeres</span>
+                <span class="menu-spacer"></span>
+                <app-search (searchText)="search($event)"></app-search>
+            </mat-toolbar>
+        </div>
+
+        <!-- Pintar el componente de edición, sobre todo en una cpa superior-->
+        <div id="editTask">
+
+            <div class="cdk-overlay-container">
+                <div class="cdk-overlay-backdrop cdk-overlay-dark-backdrop cdk-overlay-backdrop-showing"></div>
+                <div class="cdk-global-overlay-wrapper" dir="ltr" style="justify-content: center; align-items: center;">
+                    <div id="cdk-overlay-1" class="cdk-overlay-pane" style="max-width: 80vw; pointer-events: auto; position: static;">
+                        <div tabindex="0" class="cdk-visually-hidden cdk-focus-trap-anchor" aria-hidden="true"></div>
+
+                        <div class="form-edit mat-dialog-container mat-dialog-containe">
+                            <app-task-edit [task]="task" (taskUpdated)="updateTask($event)"></app-task-edit>
+                        </div>
+
+                        <div tabindex="0" class="cdk-visually-hidden cdk-focus-trap-anchor" aria-hidden="true"></div>
+                    </div>
+                </div>
+            </div>
+
+
+
+
+        </div>
+    </div>
+</div>

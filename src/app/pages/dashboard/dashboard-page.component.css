@@ -1,0 +1,19 @@
+.tasks {
+    width: 50%;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+}
+
+.menu-spacer {
+    flex: 1 1 auto;
+}
+
+.new-task {
+    right: 50px;
+    bottom: 50px;
+    position: fixed;
+    z-index: 99999;
+}

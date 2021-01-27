@@ -1,0 +1,25 @@
+<div id="dashboardPage">
+    <div class="pContent">
+        <div class="menu">
+            <mat-toolbar color="primary" class="mat-elevation-z6">
+                <span>Xestor de Xeres</span>
+                <span class="menu-spacer"></span>
+                <app-search (searchText)="search($event)"></app-search>
+            </mat-toolbar>
+        </div>
+
+        <div class="container">
+            <div class="tasks">
+                <app-task-list [tasks]="tasks" [searchText]="searchText"></app-task-list>
+            </div>
+        </div>
+
+        <div class="new-task">
+            <a routerLink="/new">
+                <button i18n mat-mini-fab color="primary" aria-label="Crear una nueva tarea">
+                    <mat-icon>add</mat-icon>
+                </button>
+            </a>
+        </div>
+    </div>
+</div>
