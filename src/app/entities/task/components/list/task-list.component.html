@@ -1,5 +1,4 @@
 <div *ngIf="tasks">
-    <h1>{{searchText}}</h1>
     <div *ngFor="let task of tasks | orderByStatus" class=" list-task ">
         <app-task-detail [searchText]="searchText" [task]="task"></app-task-detail>
     </div>
