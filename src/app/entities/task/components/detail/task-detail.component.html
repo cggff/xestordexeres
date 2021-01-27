@@ -14,7 +14,7 @@
             {{task.description}}
         </p>
     </mat-card-content>
-    <mat-card-actions class="card-actions" *ngIf="!task.done">
+    <mat-card-actions class="card-actions" >
 
         <button i18n mat-stroked-button [matMenuTriggerFor]="menu" aria-label="Opciones de menu" class="card-menu">
             Opciones
@@ -33,7 +33,7 @@
             </button>
         </mat-menu>
 
-        <button i18n mat-raised-button color="accent" (click)="taskCompleted()">
+        <button i18n mat-raised-button color="accent" (click)="taskCompleted()" *ngIf="!task.done">
             <mat-icon>done</mat-icon>
             Finalizar
         </button>
